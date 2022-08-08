@@ -1,0 +1,48 @@
+
+*{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #976479;
+}
+header{
+    font-size: 25px;
+    height:fit-content;
+    width: 100%;
+    padding:10px;
+    justify-content:center;
+    text-align:justify;
+
+}
+
+main{
+    height: max-content;
+    padding: 22px;
+    text-align: center;
+
+}
+form{
+    font-size: 20px;
+
+}
+table{
+    font-size: 25px;
+    height: 100%;
+    width: 85%;
+    margin: 30px;
+    table-layout:fixed;
+    box-sizing: border-box;
+    border-collapse:separate;
+    border-style: double;
+    color: #976479;
+    background-color: #f2e1d4;
+}
+td {
+    background-color:#DEB6AB;  
+    line-height: 25px;
+}
+footer{
+    position: fixed;
+    margin: 20px;
+    bottom:0;
+}
+
+

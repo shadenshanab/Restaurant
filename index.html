@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Form</h1>
+        <h2><a href="index.html">Home</a></h2>
+    </header>
+    
+    <main>
+        <form id="restaurant">
+            <label for="Food Name">Food name: </label>
+            <input type="text" id="name">
+            <br>
+            <label for="Food Types">Choose a food type:</label>
+            <select name="Food Types" id="type">
+                <option value="Fruit and vegetables">Fruit and vegetables</option>
+                <option value="Starchy food">Starchy food</option>
+                <option value="Dairy">Dairy</option>
+                <option value="Protein">Protein</option>
+                <option value="Fat">Fat</option>
+            </select>
+            <br>
+            <label for="Price">Price: </label>
+            <input type="text" id="price">
+            <br>
+            <button type="submit">Submit</button>
+            <br>
+        </form>
+        <div id="container">
+            <table id="myTable">
+                <tr id="tableLabels">
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Type</td>
+                    <td>Price</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <h5>&#128151;Made by Shaden Shanab&#128151;</h5>
+    </footer>
+    <script src="./app.js" ></script>
+    <link rel="styleSheet" href="style.css">
+</body>
+</html>
