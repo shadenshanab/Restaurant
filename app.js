@@ -10,7 +10,7 @@ function Food(ID, name, type, price){
 
 
 const counter = 1000;
-function foodID(counter){
+function foodID(){
     return counter++;
 }
 
